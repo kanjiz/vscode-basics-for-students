@@ -5,6 +5,9 @@
 ## 1. インストーラーをダウンロードする
 
 1. [VSCode公式サイト](https://code.visualstudio.com/)へアクセスします。
+
+   ![VSCode公式サイトのトップページ。ナビゲーションバーに「Docs」「Updates」などのメニューがあり、中央に「The open source AI code editor」の見出しと黒い「Download for Windows」ボタンが表示されている](images/01-vscode-download.png)
+
 2. **「Download for Windows」** ボタンをクリックします。
     * ※今回は **User Installer** 版を使用します。これは、パソコンの管理権限（管理者パスワード）がなくてもインストールしやすいためです。
 

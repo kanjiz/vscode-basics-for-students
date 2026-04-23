@@ -3,3 +3,5 @@ rules:
     no-exclamation-question-mark: false
     no-mix-dearu-desumasu:
       preferInList: "ですます"
+    sentence-length:
+      max: 200
