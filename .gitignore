@@ -1,0 +1,16 @@
+# Node.js (lintツール用)
+node_modules/
+npm-debug.log*
+
+# Windows System Files
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.code-workspace
+
+# OS X (macOSの人が混じった時用)
+.DS_Store
