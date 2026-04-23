@@ -1,0 +1,13 @@
+# デフォルトでテキストファイルはLFで保存する
+* text=auto eol=lf
+
+# 言語ごとの明示的な設定
+*.md text
+*.json text
+*.ts text
+
+# 画像ファイルはバイナリとして扱う
+*.jpg binary
+*.png binary
+*.gif binary
+*.svg text
