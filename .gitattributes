@@ -5,9 +5,11 @@
 *.md text
 *.json text
 *.ts text
+*.yml text
+*.yaml text
+*.svg text
 
 # 画像ファイルはバイナリとして扱う
 *.jpg binary
 *.png binary
 *.gif binary
-*.svg text
