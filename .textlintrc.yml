@@ -1,2 +1,5 @@
 rules:
-  preset-ja-technical-writing: true
+  preset-ja-technical-writing:
+    no-exclamation-question-mark: false
+    no-mix-dearu-desumasu:
+      preferInList: "ですます"
