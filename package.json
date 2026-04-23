@@ -13,6 +13,7 @@
   "license": "ISC",
   "author": "kanjiz",
   "scripts": {
+    "clean:cite": "node scripts/clean-cite.js",
     "lint:md": "markdownlint-cli2 \"**/*.md\" \"!node_modules/**\"",
     "lint:text": "textlint \"**/*.md\"",
     "lint": "npm run lint:md && npm run lint:text"
