@@ -1,0 +1,25 @@
+{
+  "name": "vscode-basics-for-students",
+  "version": "1.0.0",
+  "description": "VS Codeの基本操作を学ぶための学習用リポジトリ",
+  "homepage": "https://github.com/kanjiz/vscode-basics-for-students#readme",
+  "bugs": {
+    "url": "https://github.com/kanjiz/vscode-basics-for-students/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanjiz/vscode-basics-for-students.git"
+  },
+  "license": "ISC",
+  "author": "kanjiz",
+  "scripts": {
+    "lint:md": "markdownlint-cli2 \"**/*.md\" \"!node_modules/**\"",
+    "lint:text": "textlint \"**/*.md\"",
+    "lint": "npm run lint:md && npm run lint:text"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.22.0",
+    "textlint": "^15.5.4",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2"
+  }
+}

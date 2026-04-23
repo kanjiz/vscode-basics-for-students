@@ -1,3 +1,6 @@
+# Claude Code
+.claude/
+
 # Node.js (lintツール用)
 node_modules/
 npm-debug.log*
